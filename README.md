@@ -17,10 +17,10 @@ has two primary benefits.
 
 Visit the following Url for the sender portion of the application.
 
-https://boombatower.github.io/chromecast-dashboard/sender/
+https://jlongman.github.io/anchors-dashboard/sender/
 
 # Enjoy! #
 
 ![Photo of dashboard running on Chromecast](tv.jpeg)
 
-[StatCounter stats](http://statcounter.com/p9400224/summary/?guest=1)
+
