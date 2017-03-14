@@ -9,7 +9,7 @@ window.onload = function() {
 
   castReceiverManager.onReady = function(event) {
     console.log('Received Ready event: ' + JSON.stringify(event.data));
-    window.castReceiverManager.setApplicationState('chromecast-dashboard is ready...');
+    window.castReceiverManager.setApplicationState('anchors-dashboard is ready...');
   };
 
   castReceiverManager.onSenderConnected = function(event) {
@@ -22,7 +22,7 @@ window.onload = function() {
 
   window.messageBus =
     window.castReceiverManager.getCastMessageBus(
-        'urn:x-cast:com.boombatower.chromecast-dashboard', cast.receiver.CastMessageBus.MessageType.JSON);
+        'urn:x-cast:com.jonathan.longman.anchors-dashboard', cast.receiver.CastMessageBus.MessageType.JSON);
 
   window.messageBus.onMessage = function(event) {
     console.log('Message [' + event.senderId + ']: ' + event.data);
